@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+  <link rel="dns-prefetch" href="http://zhouyuhao01.github.io">
+  <title>Blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta property="og:type" content="website">
+<meta property="og:title" content="Blog">
+<meta property="og:url" content="http://zhouyuhao01.github.io/index.html">
+<meta property="og:site_name" content="Blog">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Blog">
+  
+    <link rel="alternative" href="/atom.xml" title="Blog" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  <link rel="stylesheet" type="text/css" href="/./main.2d7529.css">
+  <style type="text/css">
+  
+    #container.show {
+      background: linear-gradient(200deg,#a0cfe4,#e8c37e);
+    }
+  </style>
+  
+
+  
+
+</head>
+
+<body>
+  <div id="container" q-class="show:isCtnShow">
+    <canvas id="anm-canvas" class="anm-canvas"></canvas>
+    <div class="left-col" q-class="show:isShow">
+      
+<div class="overlay" style="background: #4d4d4d"></div>
+<div class="intrude-less">
+	<header id="header" class="inner">
+		<a href="/" class="profilepic">
+			<img src="/assets/img/images.jpeg" class="js-avatar">
+		</a>
+		<hgroup>
+		  <h1 class="header-author"><a href="/">zhouyuhao</a></h1>
+		</hgroup>
+		
+
+		<nav class="header-menu">
+			<ul>
+			
+				<li><a href="/">主页</a></li>
+	        
+				<li><a href="/tags/随笔/">随笔</a></li>
+	        
+			</ul>
+		</nav>
+		<nav class="header-smart-menu">
+    		
+    			
+    			<a q-on="click: openSlider(e, 'innerArchive')" href="javascript:void(0)">所有文章</a>
+    			
+            
+    			
+    			<a q-on="click: openSlider(e, 'friends')" href="javascript:void(0)">友链</a>
+    			
+            
+    			
+    			<a q-on="click: openSlider(e, 'aboutme')" href="javascript:void(0)">关于我</a>
+    			
+            
+		</nav>
+		<nav class="header-nav">
+			<div class="social">
+				
+					<a class="github" target="_blank" href="https://www.github.com/zhouyuhao01" title="github"><i class="icon-github"></i></a>
+		        
+					<a class="qq" target="_blank" href="/250206849" title="qq"><i class="icon-qq"></i></a>
+		        
+					<a class="mail" target="_blank" href="/zhouyuhao1989@qq.com" title="mail"><i class="icon-mail"></i></a>
+		        
+			</div>
+		</nav>
+	</header>		
+</div>
+
+    </div>
+    <div class="mid-col" q-class="show:isShow,hide:isShow|isFalse">
+      
+<nav id="mobile-nav">
+  	<div class="overlay js-overlay" style="background: #4d4d4d"></div>
+	<div class="btnctn js-mobile-btnctn">
+  		<div class="slider-trigger list" q-on="click: openSlider(e)"><i class="icon icon-sort"></i></div>
+	</div>
+	<div class="intrude-less">
+		<header id="header" class="inner">
+			<div class="profilepic">
+				<img src="/assets/img/images.jpeg" class="js-avatar">
+			</div>
+			<hgroup>
+			  <h1 class="header-author js-header-author">zhouyuhao</h1>
+			</hgroup>
+			
+			
+			
+				
+			
+				
+			
+			
+			
+			<nav class="header-nav">
+				<div class="social">
+					
+						<a class="github" target="_blank" href="https://www.github.com/zhouyuhao01" title="github"><i class="icon-github"></i></a>
+			        
+						<a class="qq" target="_blank" href="/250206849" title="qq"><i class="icon-qq"></i></a>
+			        
+						<a class="mail" target="_blank" href="/zhouyuhao1989@qq.com" title="mail"><i class="icon-mail"></i></a>
+			        
+				</div>
+			</nav>
+
+			<nav class="header-menu js-header-menu">
+				<ul style="width: 50%">
+				
+				
+					<li style="width: 50%"><a href="/">主页</a></li>
+		        
+					<li style="width: 50%"><a href="/tags/随笔/">随笔</a></li>
+		        
+				</ul>
+			</nav>
+		</header>				
+	</div>
+	<div class="mobile-mask" style="display:none" q-show="isShow"></div>
+</nav>
+
+      <div id="wrapper" class="body-wrap">
+        <div class="menu-l">
+          <div class="canvas-wrap">
+            <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
+          </div>
+          <div id="js-content" class="content-ll">
+            
+  
+    <article id="post-AndResGuard使用及分析" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/02/28/AndResGuard使用及分析/">AndResGuard使用及分析</a>
+    </h1>
+  
+
+        
+        <a href="/2017/02/28/AndResGuard使用及分析/" class="archive-article-date">
+  	<time datetime="2017-02-28T06:49:53.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-02-28</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="AndResGuard使用及分析"><a href="#AndResGuard使用及分析" class="headerlink" title="AndResGuard使用及分析"></a>AndResGuard使用及分析</h1><h2 id="AndResGuard简介"><a href="#AndResGuard简介" class="headerlink" title="AndResGuard简介"></a>AndResGuard简介</h2><p>andresguard的主要作用是用于Android app资源混淆，目的是为了减小APK的大小，增加反编译的难度，原理和Android的proguard类似</p>
+<h2 id="原理说明"><a href="#原理说明" class="headerlink" title="原理说明"></a>原理说明</h2><p>资源混淆简单来说希望实现将res/drawable/icon,png变成res/drawable/a.png,或我们甚至可以将文件路径也同时混淆，改成r/s/a.png。<br>在APK包中对此信息的存储在resource.arsc中，如下图所示</p>
+<p><img src="http://ok2nv15ql.bkt.clouddn.com/%E5%9B%BE%E7%89%87%201.png" alt="image"></p>
+<p>基于此原理，主要有以下三个方案</p>
+<ul>
+<li>最简单的方法，我们按照Proguard的做法，直接在源码级别修改，将代码以及xml的R.string.name中替换到R.string.a，icon.png重命名为a.png 然后再交给Android编译。</li>
+<li>根据Android的编译流程，所有资源ID已经被编译成32位int值。这说明我们并不需要去修改xml与java，因为在编译过程已经被R.java所替换，我们直接修改resources.arsc的二进制数据，不改变打包流程，只要在生成resources.arsc之后修改它，同时重命名资源文件。</li>
+<li>但是方案二看起来不错，但是它依然依赖了编译流程，不利于使用。其实我们可以做到直接处理安装包. 不依赖源码，不依赖编译过程，仅仅输入一个安装包，得到一个混淆包。</li>
+</ul>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2017/02/28/AndResGuard使用及分析/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+
+
+
+
+
+
+
+  
+    <article id="post-Android 资源加载原理" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/02/28/Android 资源加载原理/">Android 资源加载原理</a>
+    </h1>
+  
+
+        
+        <a href="/2017/02/28/Android 资源加载原理/" class="archive-article-date">
+  	<time datetime="2017-02-28T06:49:53.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-02-28</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="Android-资源加载原理"><a href="#Android-资源加载原理" class="headerlink" title="Android 资源加载原理"></a>Android 资源加载原理</h1><p>在平时的开发中我们很少关注到Android资源的加载，通常都是使用getResource.getString(R.string.appname),这样的语句来获取资源内容。但是当涉及到插件开发的时候我们就发现这是非常重要的一部分，插件的动态加载主要涉及的两个方面，一个是类的加载，一个是资源的加载，类的加载不是本篇的重点，重要讲述资源的加载。</p>
+<h2 id="源码分析"><a href="#源码分析" class="headerlink" title="源码分析"></a>源码分析</h2><p>下面这段话使我们输入法中最常使用的一句话<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">String testString = mContext.getResources().getString(R.string.app_name);</div></pre></td></tr></table></figure></p>
+<p>首先我们来下看mContext.getResources()干了什么</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">ContextWrapper类</div><div class="line"></div><div class="line">public Resources getResources()</div><div class="line">&#123;</div><div class="line">    return mBase.getResources();</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>那么mBase什么呢</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">protected void attachBaseContext(Context base) &#123;</div><div class="line">    if (mBase != null) &#123;</div><div class="line">        throw new IllegalStateException(&quot;Base context already set&quot;);</div><div class="line">    &#125;</div><div class="line">    mBase = base;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>不在具体写下去了，我们看过源码可以发现其实这个mBase就是contextImpl</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Resources resources = packageInfo.getResources(mainThread);</div></pre></td></tr></table></figure>
+<p>这个resources就是我们所需的resources</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">public Resources getResources(ActivityThread mainThread) &#123;</div><div class="line">    if (mResources == null) &#123;</div><div class="line">        mResources = mainThread.getTopLevelResources(mResDir,</div><div class="line">                Display.DEFAULT_DISPLAY, null, this);</div><div class="line">    &#125;</div><div class="line">    return mResources;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2017/02/28/Android 资源加载原理/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+
+
+
+
+
+
+
+  
+    <article id="post-Toast的正确打开方式20170217" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/02/28/Toast的正确打开方式20170217/">Android中Toast如何在子线程中调用</a>
+    </h1>
+  
+
+        
+        <a href="/2017/02/28/Toast的正确打开方式20170217/" class="archive-article-date">
+  	<time datetime="2017-02-28T06:49:53.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-02-28</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="Android中Toast如何在子线程中调用"><a href="#Android中Toast如何在子线程中调用" class="headerlink" title="Android中Toast如何在子线程中调用"></a>Android中Toast如何在子线程中调用</h1><p>当我们在应用的子线程中调用Toast的时候，我们会发现编译时并没有问题，但是当我们运行时就会出现如下错误</p>
+<p><img src="http://img.blog.csdn.net/20160229084827855?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center" alt="image"></p>
+<p>通常我们都会认为此问题是因为在子线程中去更新UI导致的，<br>其实不然，因为我们观察所抛出的log信息即可发现不是更新UI导致的，那么是什么原因导致的此问题呢</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2017/02/28/Toast的正确打开方式20170217/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+
+
+
+
+
+
+
+  
+    <article id="post-Android性能优化典范 - 第4季" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/02/28/Android性能优化典范 - 第4季/">Android性能优化典范 - 第4季</a>
+    </h1>
+  
+
+        
+        <a href="/2017/02/28/Android性能优化典范 - 第4季/" class="archive-article-date">
+  	<time datetime="2017-02-28T06:49:53.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-02-28</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="Android性能优化典范-第4季"><a href="#Android性能优化典范-第4季" class="headerlink" title="Android性能优化典范 - 第4季"></a>Android性能优化典范 - 第4季</h1><h2 id="1-Cachematters-for-networking"><a href="#1-Cachematters-for-networking" class="headerlink" title="1) Cachematters for networking"></a>1) Cachematters for networking</h2><p>想要使得Android系统上的网络访问操作更加的高效就必须做好网络数据的缓存。这是提高网络访问性能最基础的步骤之一。从手机的缓存中直接读取数据肯定比从网络上获取数据要更加的便捷高效，特别是对于那些会被频繁访问到的数据，需要把这些数据缓存到设备上，以便更加快速的进行访问。</p>
+<p>Android系统上关于网络请求的Http Response Cache是默认关闭的，这样会导致每次即使请求的数据内容是一样的也会需要重复被调用执行，效率低下。我们可以通过下面的代码示例开启HttpResponseCache。</p>
+<p><img src="http://hukai.me/images/android_perf_4_network_cache_enable.png" alt="image"></p>
+<p>开启Http Response Cache之后，Http操作相关的返回数据就会缓存到文件系统上，不仅仅是主程序自己编写的网络请求相关的数据会被缓存，另外引入的library库中的网络相关的请求数据也会被缓存到这个Cache中。</p>
+<p>网络请求的场景有可以是普通的http请求，也可以打开某个URL去获取数据，如下图所示：</p>
+<p><img src="http://hukai.me/images/android_perf_4_network_cache_code.png" alt="image"></p>
+<p>几个问题：</p>
+<p><strong>1.缓存的目录问题，只能在内部存储或者sd卡的private目录下，不能再public目录下</strong></p>
+<p><strong>2.支持HttpURLConnection和HttpsURLConnection，但是不支持DefaultHttpClient or AndroidHttpClient</strong></p>
+<p><strong>3.如何强制不使用缓存</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">connection.addRequestProperty(&quot;Cache-Control&quot;, &quot;no-cache&quot;);</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">connection.addRequestProperty(&quot;Cache-Control&quot;, &quot;max-age=0&quot;);</div></pre></td></tr></table></figure>
+<p>我们有两种方式来清除HttpResponseCache的缓存数据：第一种方式是缓存溢出的时候删除最旧最老的文件，第二种方式是通过Http返回Header中的Cache-Control字段来进行控制的。如下图所示：</p>
+<p><img src="http://hukai.me/images/android_perf_4_network_cache_control.png" alt="image"></p>
+<p>通常来说，HttpResponseCache会缓存所有的返回信息，包括实际的数据与Header的部分.一般情况下，这个Cache会自动根据协议返回Cache-Control的内容与当前缓存的数据量来决定哪些数据应该继续保留，哪些数据应该删除。但是在一些极端的情况下，例如服务器返回的数据没有设置Cache废弃的时间，或者是本地的Cache文件系统与返回的缓存数据有冲突，或者是某些特殊的网络环境导致HttpResponseCache工作异常，在这些情况下就需要我们自己来实现Http的缓存Cache。</p>
+<p>实现自定义的http缓存，需要解决两个问题：第一个是实现一个DiskCacheManager，另外一个是制定Cache的缓存策略。关于DiskCacheManager，我们可以扩展Android系统提供的DiskLruCache来实现。而Cache的缓存策略，相对来说复杂一些，我们可能需要把部分JSON数据设计成不能缓存的，另外一些JSON数据设计成可以缓存几天的，把缩略图设计成缓存一两天的等等，为不同的数据类型根据他们的使用特点制定不同的缓存策略。<br><img src="http://hukai.me/images/android_perf_4_network_cache_diff.png" alt="image"></p>
+<p>想要比较好的实现这两件事情，如果全部自己从头开始写会比较繁琐复杂，所幸的是，有不少著名的开源框架帮助我们快速的解决了那些问题。我们可以使用Volly，okHTTP，Picasso来实现网络缓存。</p>
+<p>实现好网络缓存之后，我们可以使用Android Studio里面的Network Traffic Tools来查看网络数据的请求与返回情况，另外我们还可以使用AT&amp;T ARO工具来抓取网络数据包进行分析查看。</p>
+<h2 id="2-Optimizing-Network-Request-Frequencies"><a href="#2-Optimizing-Network-Request-Frequencies" class="headerlink" title="2) Optimizing Network Request Frequencies"></a>2) Optimizing Network Request Frequencies</h2><p>应用程序的一个基础功能是能够保持确保界面上呈现的信息是即时最新的，例如呈现最新的新闻，天气，信息流等等信息。但是，过于频繁的促使手机客户端应用去同步最新的服务器数据会对性能产生很大的负面影响，不仅仅使得CPU不停的在工作，内存，网络流量，电量等等都会持续的被消耗，所以在进行网络请求操作的时候一定要避免多度同步操作。</p>
+<p>退到后台的应用为了能够在切换回前台的时候呈现最新的数据，会偷偷在后台不停的做同步的操作。这种行为会带来很严重的问题，首先因为网络请求的行为异常的耗电，其次不停的进行网络同步会耗费很多带宽流量。</p>
+<p>为了能够尽量的减少不必要的同步操作，我们需要遵守下面的一些规则：</p>
+<ul>
+<li>首先我们要对网络行为进行分类，区分需要立即更新数据的行为和其他可以进行延迟的更新行为，为不同的场景进行差异化处理。</li>
+<li>其次要避免客户端对服务器的轮询操作，这样会浪费很多的电量与带宽流量。解决这个问题，我们可以使用Google Cloud Message来对更新的数据进行推送。(==目前国内的环境使用google cloud message在稳定性上会有问题==)</li>
+<li>然后在某些必须做同步的场景下，需要避免使用固定的间隔频率来进行更新操作，我们应该在返回的数据无更新的时候，使用双倍的间隔时间来进行下一次同步。<br>目前输入法中关于通知中心的大致流程如下图<br><img src="http://ww3.sinaimg.cn/large/0060lm7Tgw1fbgrop4p8fj30o107hq3z.jpg" alt="image"></li>
+<li>最后更进一步，我们还可以通过判断当前设备的状态来决定同步的频率，例如判断设备处于休眠，运动等不同的状态设计各自不同时间间隔的同步频率。</li>
+</ul>
+<p><img src="http://hukai.me/images/android_perf_4_network_frequencies_backoff.png" alt="image"></p>
+<p>另外，我们还可以通过判断设备是否连接上WiFi，是否正在充电来决定更新的频率。为了能够方便的实现这个功能，Android为我们提供了GCMNetworkManager来判断设备当下的状态，从而设计更加高效的网络同步操作，如下图所示：</p>
+<p><img src="http://hukai.me/images/android_perf_4_network_frequencies_gcm.png" alt="image"></p>
+<h2 id="3-Effective-Prefetching"><a href="#3-Effective-Prefetching" class="headerlink" title="3)Effective Prefetching"></a>3)Effective Prefetching</h2><p>关于提升网络操作的性能，除了避免频繁的网络同步操作之外，还可以使用捆绑批量访问的方式来减少访问的频率，为了达到这个目的，我们就需要了解Prefetching。</p>
+<p>举个例子，在某个场景下，一开始发出了网络请求得到了某张图片，隔了10s之后，发出第二次请求想要拿到另外一张图片，再隔了6s发出第三张图片的网络请求。这会导致设备的无线蜂窝一直处于高消耗的状态。Prefetching就是预先判定那些可能马上就会使用到的网络资源，捆绑一起集中进行网络请求。这样能够极大的减少电量的消耗，提升设备的续航时间。</p>
+<p><img src="http://hukai.me/images/android_perf_4_prefetching_bundle.png" alt="image"></p>
+<p>使用Prefetching的难点在于如何判断事先获取的数据量到底是多少，如果预取的数据量偏少，那么就起不到什么效果，但是如果预取过多，又可能导致访问的时间过长。</p>
+<p><img src="http://hukai.me/images/android_perf_4_prefetching_tricky.png" alt="image"></p>
+<p>那么问题来了，到底预取多少才比较合适呢？一个比较普适的规则是，在3G网络下可以预取1-5Mb的数据量，或者是按照提前预期后续1-2分钟的数据作为基线标准。在实际的操作当中，我们还需要考虑当前的网络速度来决定预取的数据量，例如在同样的时间下，4G网络可以获取到12张图片的数据，而2G网络则只能拿到3张图片的数据。所以，我们还需要把当前的网络环境情况添加到设计预取数据量的策略当中去。判断当前设备的状态与网络情况，可以使用前面提到过的GCMNetworkManager。</p>
+<h2 id="4-Adapting-to-Latency"><a href="#4-Adapting-to-Latency" class="headerlink" title="4)Adapting to Latency"></a>4)Adapting to Latency</h2><p>网络延迟通常来说很容易被用户察觉到，严重的网络延迟会对用户体验造成很大的影响，用户很容易抱怨应用程序写的不好。</p>
+<p>一个典型的网络操作行为，通常包含以下几个步骤：首先手机端发起网络请求，到达网络服务运营商的基站，再转移到服务提供者的服务器上，经过解码之后，接着访问本地的存储数据库，获取到数据之后，进行编码，最后按照原来传递的路径逐层返回。如下图所示：</p>
+<p><img src="http://hukai.me/images/android_perf_4_network_latency.png" alt="image"></p>
+<p>在上面的网络请求链路当中的任何一个环节都有可能导致严重的延迟，成为性能瓶颈，但是这些环节可能出现的问题，客户端应用是无法进行调节控制的，应用能够做的就只是根据当前的网络环境选择当下最佳的策略来降低出现网络延迟的概率。主要的实施步骤有两步：第1步检测收集当前的网络环境信息，第2步根据当前收集到的信息进行网络请求行为的调整。</p>
+<p>关于第1步检测当前的网络环境，我们可以使用系统提供的API来获取到相关的信息，如下图所示：</p>
+<p><img src="http://hukai.me/images/android_perf_4_network_latency_detect.png" alt="image"></p>
+<p>通过上面的示例，我们可以获取到移动网络的详细子类型，例如4G(LTE),3G等等，详细分类见下图，获取到详细的移动网络类型之后，我们可以根据当前网络的速率来调整网络请求的行为：</p>
+<p><img src="http://hukai.me/images/android_perf_4_network_latency_subtype.png" alt="image"></p>
+<p>关于第2步根据收集到的信息进行策略的调整，通常来说，我们可以把网络请求延迟划分为三档：例如把网络延迟小于60ms的划分为GOOD，大于220ms的划分为BAD，介于两者之间的划分为OK（这里的60ms，220ms会需要根据不同的场景提前进行预算推测）。如果网络延迟属于GOOD的范畴，我们就可以做更多比较激进的预取数据的操作，如果网络延迟属于BAD的范畴，我们就应该考虑把当下的网络请求操作Hold住等待网络状况恢复到GOOD的状态再进行处理。</p>
+<p><img src="http://hukai.me/images/android_perf_4_network_latency_three_category.png" alt="image"></p>
+<p>前面提到说60ms，220ms是需要提前自己预测的，可是预测的工作相当复杂。首先针对不同的机器与网络环境，网络延迟的三档阈值都不太一样，出现的概率也不尽相同，我们会需要针对这些不同的用户与设备选择不同的阈值进行差异化处理：</p>
+<p><img src="http://hukai.me/images/android_perf_4_network_latency_three_level.png" alt="image"></p>
+<p>Android官方为了帮助我们设计自己的网络请求策略，为我们提供了模拟器的网络流量控制功能来对实际环境进行模拟测量，或者还可以使用AT&amp;T提供的AT&amp;T Network Attenuator来帮助预估网络延迟。</p>
+<h2 id="5-Minimizing-Asset-Payload"><a href="#5-Minimizing-Asset-Payload" class="headerlink" title="5)Minimizing Asset Payload"></a>5)Minimizing Asset Payload</h2><p>为了能够减小网络传输的数据量，我们需要对传输的数据做压缩的处理，这样能够提高网络操作的性能。首先不同的网络环境，下载速度以及网络延迟是存在差异的，如下图所示：</p>
+<p><img src="http://hukai.me/images/android_perf_4_min_asset_load.png" alt="image"></p>
+<p>如果我们选择在网速更低的网络环境下进行数据传输，这就意味着需要执行更长的时间，而更长的网络操作行为，会导致电量消耗更加严重。另外传输的数据如果不做压缩处理，也同样会增加网络传输的时间，消耗更多的电量。不仅如此，未经过压缩的数据，也会消耗更多的流量，使得用户需要付出更多的流量费。</p>
+<p>通常来说，网络传输数据量的大小主要由两部分组成：图片与序列化的数据，那么我们需要做的就是减少这两部分的数据传输大小，分下面两个方面来讨论。</p>
+<ul>
+<li>A)首先需要做的是减少图片的大小，选择合适的图片保存格式是第一步。下图展示了PNG,JPEG,WEBP三种主流格式在占用空间与图片质量之间的对比：<br><img src="http://hukai.me/images/android_perf_4_min_asset_png_jpeg_webp.png" alt="image"></li>
+</ul>
+<p>对于JPEG与WEBP格式的图片，不同的清晰度对占用空间的大小也会产生很大的影响，适当的减少JPG Quality，可以大大的缩小图片占用的空间大小。</p>
+<p>另外，我们需要为不同的使用场景提供当前场景下最合适的图片大小，例如针对全屏显示的情况我们会需要一张清晰度比较高的图片，而如果只是显示为缩略图的形式，就只需要服务器提供一个相对清晰度低很多的图片即可。服务器应该支持到为不同的使用场景分别准备多套清晰度不一样的图片，以便在对应的场景下能够获取到最适合自己的图片。这虽然会增加服务端的工作量，可是这个付出却十分值得！<br>目前输入法当中其实用的也挺多，服务端的json数据中通常都会有这么几项</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">a</div><div class="line">    &#123;</div><div class="line">        &quot;img_logo_480&quot;: &quot;&quot;,</div><div class="line">        &quot;img_logo_720&quot;: &quot;&quot;,</div><div class="line">        &quot;img_logo_1080&quot;: &quot;&quot;,</div><div class="line">        &quot;img_logo_2x&quot;: &quot;&quot;,</div><div class="line">        &quot;img_logo_3x&quot;: &quot;&quot;,</div><div class="line">    &#125;</div></pre></td></tr></table></figure>
+<ul>
+<li>B)其次需要做的是减少序列化数据的大小。JSON与XML为了提高可读性，在文件中加入了大量的符号，空格等等字符，而这些字符对于程序来说是没有任何意义的。我们应该使用Protocal Buffers，Nano-Proto-Buffers，FlatBuffer来减小序列化的数据的大小。</li>
+</ul>
+<p>Android系统为我们提供了工具来查看网络传输的数据情况，打开Android Studio的Monitor，里面有网络访问的模块。或者是打开AT&amp;T提供的ARO工具来查看网络请求状态。</p>
+<h2 id="6-Service-Performance-Patterns"><a href="#6-Service-Performance-Patterns" class="headerlink" title="6)Service Performance Patterns"></a>6)Service Performance Patterns</h2><p>Service是Android程序里面最常用的基础组件之一，但是使用Service很容易引起电量的过度消耗以及系统资源的未及时释放。学会在何时启用Service以及使用何种方式杀掉Service就显得十分有必要了。</p>
+<p>简要过一下Service的特性：Service和UI没有关联，Service的创建，执行，销毁Service都是需要占用系统时间和内存的。另外Service是默认运行在UI线程的，这意味着Service可能会影响到系统的流畅度。</p>
+<p>使用Service应该遵循下面的一些规则：</p>
+<ul>
+<li>避免错误的使用Service，例如我们不应该使用Service来监听某些事件的变化，不应该搞一个Service在后台对服务器不断的进行轮询(应该使用Google Cloud Messaging)</li>
+<li>如果已经事先知道Service里面的任务应该执行在后台线程(非默认的主线程)的时候，我们应该使用IntentService或者结合HanderThread，AsycnTask Loader实现的Service。</li>
+</ul>
+<p>Android系统为我们提供了以下的一些异步相关的工具类</p>
+<ul>
+<li>GCM</li>
+<li>BroadcastReciever</li>
+<li>LocalBroadcastReciever</li>
+<li>WakefulBroadcastReciver</li>
+<li>HandlerThreads</li>
+<li>AsyncTaskLoaders</li>
+<li>IntentService</li>
+</ul>
+<p>如果使用上面的诸多方案还是无法替代普通的Service，那么需要注意的就是如何正确的关闭Service。</p>
+<ul>
+<li>普通的Started Service，需要通过stopSelf()来停止Service</li>
+</ul>
+<p><img src="http://hukai.me/images/android_perf_4_service_started.png" alt="image"></p>
+<ul>
+<li>另外一种Bound Service，会在其他组件都unBind之后自动关闭自己<br><img src="http://hukai.me/images/android_perf_4_service_bound.png" alt="image"></li>
+</ul>
+<p>把上面两种Service进行合并之后，我们可以得到如下图所示的Service(相关知识，还可以参考<a href="http://hukai.me/android-notes-services/" target="_blank" rel="external">http://hukai.me/android-notes-services/</a>,<a href="http://hukai.me/android-notes-bound-services/" target="_blank" rel="external">http://hukai.me/android-notes-bound-services/</a>)</p>
+<p><img src="http://hukai.me/images/android_perf_4_service_mix.png" alt="image"></p>
+<h2 id="7-Removing-unused-code"><a href="#7-Removing-unused-code" class="headerlink" title="7)Removing unused code"></a>7)Removing unused code</h2><p>使用第三方库(library)可以在不用自己编写大量代码的前提下帮助我们解决一些难题，节约大量的时间，但是这些引入的第三方库很可能会导致主程序代码臃肿冗余。</p>
+<p>如果我们处在人力，财力都相对匮乏的情况下，通常会倾向大量使用第三方库来帮助编写应用程序。这其实是无可厚非的，那些著名的第三方库的可行性早就被很多应用所采用并实践证明过。但是这里面存在的问题是，如果我们因为只需要某个library的一小部分功能而把整个library都导入自己的项目，这就会引起代码臃肿。一旦发生代码臃肿，用户就会下载到安装包偏大的应用程序，另外因为代码臃肿，还很有可能会超过单个编译文件只能有65536个方法的上限。解决这个问题的办法是使用MultiDex的方案，可是这实在是无奈之举，原则上，我们还是应该尽量避免出现这种情况。</p>
+<p>Android为我们提供了Proguard的工具来帮助应用程序对代码进行瘦身，优化，混淆的处理。它会帮助移除那些没有使用到的代码，还可以对类名，方法名进行混淆处理以避免程序被反编译。举个例子，Google I/O 2015这个应用使用了大量的library，没有经过Proguard处理之前编译出来的包是8.4Mb大小，经过处理之后的包仅仅是4.1Mb大小。</p>
+<p>使用Proguard相当的简单，只需要在build.gradle文件中配置minifEnable为true即可，如下图所示：</p>
+<p><img src="http://hukai.me/images/android_perf_4_remove_unused_code_proguard.png" alt="image"><br>但是Proguard还是不足够聪明到能够判断哪些类，哪些方法是不能够被混淆的，针对这些情况，我们需要手动的把这些需要保留的类名与方法名添加到Proguard的配置文件中，如下图所示：</p>
+<p><img src="http://hukai.me/images/android_perf_4_remove_unused_code_proguard_setting.png" alt="image"></p>
+<h2 id="8-Removing-unused-resources"><a href="#8-Removing-unused-resources" class="headerlink" title="8)Removing unused resources"></a>8)Removing unused resources</h2><p>减少APK安装包的大小也是Android程序优化中很重要的一个方面，我们不应该给用户下载到一个臃肿的安装包。假设这样一个场景，我们引入了Google Play Service的library，是想要使用里面的Maps的功能，但是里面的登入等等其他功能是不需要的，可是这些功能相关的代码与图片资源，布局资源如果也被引入我们的项目，这样就会导致我们的程序安装包臃肿。</p>
+<p>所幸的是，我们可以使用Gradle来帮助我们分析代码，分析引用的资源，对于那些没有被引用到的资源，会在编译阶段被排除在APK安装包之外，要实现这个功能，对我们来说仅仅只需要在build.gradle文件中配置shrinkResource为true就好了，如下图所示：</p>
+<p><img src="http://hukai.me/images/android_perf_4_remove_unused_resource.png" alt="image"><br>为了辅助gradle对资源进行瘦身，或者是某些时候的特殊需要，我们可以通过tools:keep或者是tools:discard标签来实现对特定资源的保留与废弃，如下图所示：</p>
+<p><img src="http://hukai.me/images/android_perf_4_remove_unused_resource_tools.png" alt="image"><br>Gradle目前无法对values，drawable等根据运行时来决定使用的资源进行优化，对于这些资源，需要我们自己来确保资源不会有冗余。</p>
+<h2 id="9-Perf-Theory-Caching"><a href="#9-Perf-Theory-Caching" class="headerlink" title="9)Perf Theory: Caching"></a>9)Perf Theory: Caching</h2><p>当我们讨论性能优化的时候，缓存是最常见最有效的策略之一。无论是为了提高CPU的计算速度还是提高数据的访问速度，在绝大多数的场景下，我们都会使用到缓存。关于缓存是如何提高效率的，这里就不赘述了。</p>
+<p>那么在什么地方，在何时应该利用好缓存来提高效率呢？请看下面的例子，很明显的演示了在某些细节上是如何利用缓存的原理来提高代码的执行效率的：</p>
+<p><img src="http://hukai.me/images/android_perf_4_cache_1.png" alt="image"><br><img src="http://hukai.me/images/android_perf_4_cache_2.png" alt="image"></p>
+<p>类似上面的例子采用缓存原理的地方还有很多，例如缓存到内存里面的图片资源，网络请求返回数据的缓存等等。总之，使用缓存就是为了减少不必要的操作，尽量复用已有的对象来提高效率。</p>
+<h2 id="10-Perf-Theory-Approximation-近似法"><a href="#10-Perf-Theory-Approximation-近似法" class="headerlink" title="10)Perf Theory: Approximation(近似法)"></a>10)Perf Theory: Approximation(近似法)</h2><p>很多时候，我们都需要学会在性能更优与体验更好之间做一定的权衡取舍。为了获取更好的表现性能，我们可能会需要牺牲一些用户体验，例如把某些细节做删除或者是降级处理以便有更好的性能。例如，导航类的应用，如果在导航期间是不停的执行定位的操作，这样能够很及时的获取到最新的位置信息以及当下位置相关的其他提示信息，但是这样会导致网络流量以及手机电量的过度消耗。所以我们可以做一定的降级处理，每隔固定的一段时间才去获取一次位置信息，损失一点及时性来换取更长的续航时间。</p>
+<p>还有很多地方都会用到近似法则来优化程序的性能，例如使用一张比较接近实际大小的图片来替代原图，换取更快的加载速度。所以对于那些对计算结果要求不需要十分精确的场景，我们可以使用近似法则来提高程序的性能。</p>
+<h2 id="11-Perf-Theory-Culling-遴选，挑选"><a href="#11-Perf-Theory-Culling-遴选，挑选" class="headerlink" title="11)Perf Theory: Culling(遴选，挑选)"></a>11)Perf Theory: Culling(遴选，挑选)</h2><p>在以前的性能优化课程里面，我们知道可以通过减少Overdraw来提高程序的渲染性能（主要手段有移除非必须的background，减少重叠的布局，使用clipRect来提高自定义View的绘制性能），今天在这里要介绍的另外一个提高性能的方法是逐步对数据进行过滤筛选，减小搜索的数据集，以此提高程序的执行性能。例如我们需要搜索到居住在某个地方，年龄是多少，符合某些特定条件的候选人，就可以通过逐层过滤筛选的方式来提高后续搜索的执行效率。</p>
+<h2 id="12-Perf-Theory-Threading"><a href="#12-Perf-Theory-Threading" class="headerlink" title="12)Perf Theory: Threading"></a>12)Perf Theory: Threading</h2><p>使用多线程并发处理任务，从某种程度上可以快速提高程序的执行性能。对于Android程序来说，主线程通常也成为UI线程，需要处理UI的渲染，响应用户的操作等等。对于那些可能影响到UI线程的任务都需要特别留意是否有必要放到其他的线程来进行处理。如果处理不当，很有可能引起程序ANR。关于多线程的使用建议，可以参考官方的培训课程<a href="http://developer.android.com/training/best-background.html" target="_blank" rel="external">http://developer.android.com/training/best-background.html</a></p>
+<h2 id="13-Perf-Theory-Batching"><a href="#13-Perf-Theory-Batching" class="headerlink" title="13)Perf Theory: Batching"></a>13)Perf Theory: Batching</h2><p>==baidu wolf==</p>
+<p>关于Batching，在前几季的性能优化课程里面也不止一次提到，下面使用一张图演示下Batching的原理：</p>
+<p><img src="http://hukai.me/images/android_perf_4_batching.png" alt="image"></p>
+<p>网络请求的批量执行是另外一个比较适合说明batching使用场景的例子，因为每次发起网络请求都相对来说比较耗时耗电，如果能够做到批量一起执行，可以大大的减少电量的消耗。</p>
+<p><img src="http://hukai.me/images/android_perf_4_batching_network.png" alt="image"></p>
+<h2 id="14-Serialization-performance"><a href="#14-Serialization-performance" class="headerlink" title="14)Serialization performance"></a>14)Serialization performance</h2><p>数据的序列化是程序代码里面必不可少的组成部分，当我们讨论到数据序列化的性能的时候，需要了解有哪些候选的方案，他们各自的优缺点是什么。首先什么是序列化？用下面的图来解释一下：</p>
+<p><img src="http://hukai.me/images/android_perf_4_serialIzation.png" alt="image"></p>
+<p>数据序列化的行为可能发生在数据传递过程中的任何阶段，例如网络传输，不同进程间数据传递，不同类之间的参数传递，把数据存储到磁盘上等等。通常情况下，我们会把那些需要序列化的类实现Serializable接口(如下图所示)，但是这种传统的做法效率不高，实施的过程会消耗更多的内存。</p>
+<p><img src="http://hukai.me/images/android_perf_4_serialIzation_implement.png" alt="image"></p>
+<p>但是我们如果使用GSON库来处理这个序列化的问题，不仅仅执行速度更快，内存的使用效率也更高。Android的XML布局文件会在编译的阶段被转换成更加复杂的格式，具备更加高效的执行性能与更高的内存使用效率。</p>
+<p><img src="http://hukai.me/images/android_perf_4_serialIzation_gson.png" alt="image"></p>
+<p>下面介绍三个数据序列化的候选方案：</p>
+<ul>
+<li>Protocal Buffers：强大，灵活，但是对内存的消耗会比较大，并不是移动终端上的最佳选择。</li>
+<li>Nano-Proto-Buffers：基于Protocal，为移动终端做了特殊的优化，代码执行效率更高，内存使用效率更佳。</li>
+<li>FlatBuffers：这个开源库最开始是由Google研发的，专注于提供更优秀的性能。</li>
+</ul>
+<p>上面这些方案在性能方面的数据对比如下图所示：</p>
+<p><img src="http://hukai.me/images/android_perf_4_serialIzation_filesize.png" alt="image"><br><img src="http://hukai.me/images/android_perf_4_serialIzation_encode.png" alt="image"></p>
+<p>为了避免序列化带来的性能问题，我们其实可以考虑使用SharedPreference或者SQLite来存储那些数据，避免需要先把那些复杂的数据进行序列化的操作。</p>
+<h2 id="15-Smaller-Serialized-Data"><a href="#15-Smaller-Serialized-Data" class="headerlink" title="15)Smaller Serialized Data"></a>15)Smaller Serialized Data</h2><p>数据呈现的顺序以及结构会对序列化之后的空间产生不小的影响。通常来说，一般的数据序列化的过程如下图所示：</p>
+<p><img src="http://hukai.me/images/android_perf_4_serialIzation_java_2_json.png" alt="image"></p>
+<p>上面的过程，存在两个弊端，第一个是重复的属性名称：</p>
+<p><img src="http://hukai.me/images/android_perf_4_serialIzation_java_2_json_dup.png" alt="image"></p>
+<p>另外一个是GZIP没有办法对上面的数据进行更加有效的压缩，假如相似数据间隔了32k的数据量，这样GZIP就无法进行更加有效的压缩：</p>
+<p><img src="http://hukai.me/images/android_perf_4_serialIzation_java_2_json_gzip.png" alt="image"></p>
+<p>但是我们稍微改变下数据的记录方式，就可以得到占用空间更小的数据，如下图所示：</p>
+<p><img src="http://hukai.me/images/android_perf_4_serialIzation_java_2_json2.png" alt="image"></p>
+<p>通过优化，至少有三方面的性能提升，如下图所示：</p>
+<p>1）减少了重复的属性名：</p>
+<p><img src="http://hukai.me/images/android_perf_4_serialIzation_opt_1.png" alt="image"></p>
+<p>2）使得GZIP的压缩效率更高：</p>
+<p><img src="http://hukai.me/images/android_perf_4_serialIzation_opt_2.png" alt="image"></p>
+<p>3）同样的数据类型可以批量优化：</p>
+<p><img src="http://hukai.me/images/android_perf_4_serialIzation_opt_3.png" alt="image"></p>
+<h2 id="16-Caching-UI-data"><a href="#16-Caching-UI-data" class="headerlink" title="16)Caching UI data"></a>16)Caching UI data</h2><p>如今绝大多数的应用界面上呈现的数据都依赖于网络请求返回的结果，如何做到在网络数据返回之前避免呈现一个空白的等待页面呢（当然这里说的是非首次冷启动的情况）？这就会涉及到如何缓存UI界面上的数据。</p>
+<p>缓存UI界面上的数据，可以采用方案有存储到文件系统，Preference，SQLite等等，做了缓存之后，这样就可以在请求数据返回结果之前，呈现给用户旧的数据，而不是使用正在加载的方式让用户什么数据都看不到，当然在请求网络最新数据的过程中，需要有正在刷新的提示。至于到底选择哪个方案来对数据进行缓存，就需要根据具体情况来做选择了。</p>
+<h2 id="17-CPU-Frequency-Scaling"><a href="#17-CPU-Frequency-Scaling" class="headerlink" title="17)CPU Frequency Scaling"></a>17)CPU Frequency Scaling</h2><p>调节CPU的频率会执行的性能产生较大的影响，为了最大化的延长设备的续航时间，系统会动态调整CPU的频率，频率越高执行代码的速度自然就越快。</p>
+<p><img src="http://hukai.me/images/android_perf_4_CPU.png" alt="image"></p>
+<p>Android系统会在电量消耗与表现性能之间不断的做权衡，当有需要的时候会迅速调整CPU的频率到一个比较高负荷的状态，当程序不需要高性能的时候就会降低频率来确保更长的续航时间。</p>
+<p><img src="http://hukai.me/images/android_perf_4_CPU_adjust.png" alt="image"></p>
+<p>Android系统检测到需要调整CPU的频率到CPU频率真的达到对应频率会需要花费大概20ms的时间，在此期间很有可能会因为CPU频率不够而导致代码执行偏慢。</p>
+<p><img src="http://hukai.me/images/android_perf_4_CPU_gap.png" alt="image"></p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2017/02/28/Android性能优化典范 - 第4季/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+
+
+
+
+
+
+
+  
+    <article id="post-语音SDK使用说明" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/02/28/语音SDK使用说明/">语音SDK使用说明</a>
+    </h1>
+  
+
+        
+        <a href="/2017/02/28/语音SDK使用说明/" class="archive-article-date">
+  	<time datetime="2017-02-28T06:49:53.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-02-28</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="语音SDK使用说明"><a href="#语音SDK使用说明" class="headerlink" title="语音SDK使用说明"></a>语音SDK使用说明</h1><h2 id="1-首先需要在AndroidManifest-xml中添加如下代码"><a href="#1-首先需要在AndroidManifest-xml中添加如下代码" class="headerlink" title="1.首先需要在AndroidManifest.xml中添加如下代码"></a>1.首先需要在AndroidManifest.xml中添加如下代码</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;service android:name=&quot;com.baidu.speech.VoiceRecognitionService&quot; android:exported=&quot;false&quot; /&gt;</div></pre></td></tr></table></figure>
+<h2 id="2-具体代码"><a href="#2-具体代码" class="headerlink" title="2.具体代码"></a>2.具体代码</h2><p>初始化语音</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line">// 预热麦克风，这段代码可以提前执行，根据需求尽可能往前</div><div class="line">openMic();</div><div class="line"></div><div class="line">// 获取语音识别实例对象</div><div class="line">SpeechRecognizer speechRecognizer = SpeechRecognizer.createSpeechRecognizer(mContext,</div><div class="line">                new ComponentName(mContext, VoiceRecognitionService.class));</div><div class="line">                </div><div class="line">// 设置识别的参数，关键代码会在initConfig方法中实现 </div><div class="line">Intent recognizerIntent = new Intent();</div><div class="line">initConfig(recognizerIntent);</div><div class="line">speechRecognizer.startListening(recognizerIntent);</div><div class="line"></div><div class="line">// 设置监听，对返回结果进行处理，详细代码在Listener中实现</div><div class="line">mlistener = new </div><div class="line">speechRecognizer.setRecognitionListener(mListener);</div></pre></td></tr></table></figure>
+<p>识别参数初始化详细代码</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div></pre></td><td class="code"><pre><div class="line">private void initConfig(Intent intent, long time) throws StoragePermissionException &#123;</div><div class="line"></div><div class="line">    // 设置识别模式是离线还是在线还是离在线融合，参数分别为在线0，离线1，融合模式2</div><div class="line">    intent.putExtra(&quot;basic.decoder&quot;, 1);</div><div class="line">    // 识别服务器</div><div class="line">    intent.putExtra(&quot;decoder-server.url&quot;,&quot;http://audiotest.baidu.com:80/echo.fcgi&quot;);</div><div class="line">    // 识别的采样率</div><div class="line">    intent.putExtra(&quot;sample&quot;, 16000);</div><div class="line">    // 识别所使用的语言，597为普通话，593为粤语</div><div class="line">    intent.putExtra(&quot;decoder-server.pdt&quot;, 597);</div><div class="line">    intent.putExtra(&quot;prop&quot;, 20000);</div><div class="line">    // 授权文件地址，之前有提供给vivo同学过</div><div class="line">    intent.putExtra(&quot;license-file-path&quot;, licensePath);</div><div class="line">    // 离线语言数据文件的地址，就是提供的sdk中offlinedata文件</div><div class="line">    intent.putExtra(&quot;asr-base-file-path&quot;, offlineDataFilePath);</div><div class="line">    // 是否需要标点符号</div><div class="line">    intent.putExtra(&quot;disable-punctuation&quot;, false);</div><div class="line">    // 用户id号，需要使用唯一的用户id</div><div class="line">    intent.putExtra(&quot;decoder-server.glb&quot;, mVoiceSn);</div><div class="line">    // 是否需要授权，不需要授权，因为直接使用了授权文件，这里使用FALSE即可</div><div class="line">    intent.putExtra(&quot;decoder-server.auth&quot;, false);</div><div class="line">    // 禁用开放平台认证</div><div class="line">    intent.putExtra(&quot;auth&quot;, false);</div><div class="line">  </div><div class="line">    intent.putExtra(VoiceConstant.CONFIG_PARAM_VAD_SMART_FINISH, false);</div><div class="line"></div><div class="line">    // 语音录音文件的输出目录</div><div class="line">    intent.putExtra(VoiceConstant.CONFIG_PARAM_OUTFILE, filePath);</div><div class="line"></div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>监听器及相关处理</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div></pre></td><td class="code"><pre><div class="line">/**</div><div class="line"> * 用于处理语音识别回调的监听器</div><div class="line"> */</div><div class="line">private class VoiceListener implements RecognitionListener &#123;</div><div class="line">    /**</div><div class="line">     * 语音功能已经准备完毕的回调方法</div><div class="line">     */</div><div class="line">    @Override</div><div class="line">    public void onReadyForSpeech(Bundle params) &#123;</div><div class="line">        </div><div class="line">        </div><div class="line">    &#125;</div><div class="line"></div><div class="line">    /**</div><div class="line">     * 检测到语音输入</div><div class="line">     */</div><div class="line">    @Override</div><div class="line">    public void onBeginningOfSpeech() &#123;</div><div class="line">        </div><div class="line">    &#125;</div><div class="line">    </div><div class="line">    </div><div class="line">    /**</div><div class="line">     * 当前返回的音量数据</div><div class="line">     */</div><div class="line">    @Override</div><div class="line">    public void onRmsChanged(float rmsdB) &#123;</div><div class="line">        </div><div class="line">    &#125;</div><div class="line"></div><div class="line">    @Override</div><div class="line">    public void onBufferReceived(byte[] buffer) &#123;</div><div class="line">        </div><div class="line">    &#125;</div><div class="line"></div><div class="line">    /**</div><div class="line">     * 检测到语音终点</div><div class="line">     */</div><div class="line">    @Override</div><div class="line">    public void onEndOfSpeech() &#123;</div><div class="line">        </div><div class="line">    &#125;</div><div class="line"></div><div class="line">    /**</div><div class="line">     * 发生错误信息</div><div class="line">     */</div><div class="line">    @Override</div><div class="line">    public void onError(int error) &#123;</div><div class="line">        </div><div class="line">    &#125;</div><div class="line"></div><div class="line">    // 收到最终的结果</div><div class="line">    @Override</div><div class="line">    public void onResults(Bundle results) &#123;</div><div class="line">        ArrayList&lt;String&gt; resultRecognition = bundle.getStringArrayList(VoiceConstant.PARAM_RESULTS_RECOGNITION);</div><div class="line">        String recoResult = resultRecognition.get(0); // 最终识别的结果</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    // 收到暂时的结果</div><div class="line">    @Override</div><div class="line">    public void onPartialResults(Bundle partialResults) &#123;</div><div class="line">        ArrayList&lt;String&gt; resultRecognition = bundle.getStringArrayList(VoiceConstant.PARAM_RESULTS_RECOGNITION);</div><div class="line">        String recoPartialResult = resultRecognition.get(0); // 最终识别的结果</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    @Override</div><div class="line">    public void onEvent(int eventType, Bundle params) &#123;</div><div class="line"></div><div class="line">    &#125;</div><div class="line"></div><div class="line">&#125;</div></pre></td></tr></table></figure>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2017/02/28/语音SDK使用说明/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+
+
+
+
+
+
+
+  
+  
+
+
+          </div>
+        </div>
+      </div>
+      <footer id="footer">
+  <div class="outer">
+    <div id="footer-info">
+    	<div class="footer-left">
+    		&copy; 2017 zhouyuhao
+    	</div>
+      	<div class="footer-right">
+      		<a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a> by Litten
+      	</div>
+    </div>
+  </div>
+</footer>
+    </div>
+    <script>
+	var yiliaConfig = {
+		mathjax: false,
+		isHome: true,
+		isPost: false,
+		isArchive: false,
+		isTag: false,
+		isCategory: false,
+		open_in_new: true,
+		root: "/",
+		innerArchive: true,
+		showTags: false
+	}
+</script>
+
+<script>!function(t){function n(r){if(e[r])return e[r].exports;var o=e[r]={exports:{},id:r,loaded:!1};return t[r].call(o.exports,o,o.exports,n),o.loaded=!0,o.exports}var e={};return n.m=t,n.c=e,n.p="./",n(0)}([function(t,n,e){"use strict";function r(t){return t&&t.__esModule?t:{default:t}}function o(t,n){var e=/\/|index.html/g;return t.replace(e,"")===n.replace(e,"")}function i(){for(var t=document.querySelectorAll(".js-header-menu li a"),n=window.location.pathname,e=0,r=t.length;e<r;e++){var i=t[e];o(n,i.getAttribute("href"))&&(0,d.default)(i,"active")}}function u(t){for(var n=t.offsetLeft,e=t.offsetParent;null!==e;)n+=e.offsetLeft,e=e.offsetParent;return n}function f(t){for(var n=t.offsetTop,e=t.offsetParent;null!==e;)n+=e.offsetTop,e=e.offsetParent;return n}function c(t,n,e,r,o){var i=u(t),c=f(t)-n;if(c-e<=o){var a=t.$newDom;a||(a=t.cloneNode(!0),(0,h.default)(t,a),t.$newDom=a,a.style.position="fixed",a.style.top=(e||c)+"px",a.style.left=i+"px",a.style.zIndex=r||2,a.style.width="100%",a.style.color="#fff"),a.style.visibility="visible",t.style.visibility="hidden"}else{t.style.visibility="visible";var s=t.$newDom;s&&(s.style.visibility="hidden")}}function a(){var t=document.querySelector(".js-overlay"),n=document.querySelector(".js-header-menu");c(t,document.body.scrollTop,-63,2,0),c(n,document.body.scrollTop,1,3,0)}function s(){document.querySelector("#container").addEventListener("scroll",function(t){a()}),window.addEventListener("scroll",function(t){a()}),a()}function l(){x.default.versions.mobile&&window.screen.width<800&&(i(),s())}var p=e(71),d=r(p),v=e(72),y=(r(v),e(84)),h=r(y),b=e(69),x=r(b),m=e(75),g=r(m),w=e(70);l(),(0,w.addLoadEvent)(function(){g.default.init()}),t.exports={}},function(t,n){var e=t.exports="undefined"!=typeof window&&window.Math==Math?window:"undefined"!=typeof self&&self.Math==Math?self:Function("return this")();"number"==typeof __g&&(__g=e)},function(t,n){var e={}.hasOwnProperty;t.exports=function(t,n){return e.call(t,n)}},function(t,n,e){var r=e(49),o=e(15);t.exports=function(t){return r(o(t))}},function(t,n,e){t.exports=!e(8)(function(){return 7!=Object.defineProperty({},"a",{get:function(){return 7}}).a})},function(t,n,e){var r=e(6),o=e(12);t.exports=e(4)?function(t,n,e){return r.f(t,n,o(1,e))}:function(t,n,e){return t[n]=e,t}},function(t,n,e){var r=e(10),o=e(30),i=e(24),u=Object.defineProperty;n.f=e(4)?Object.defineProperty:function(t,n,e){if(r(t),n=i(n,!0),r(e),o)try{return u(t,n,e)}catch(t){}if("get"in e||"set"in e)throw TypeError("Accessors not supported!");return"value"in e&&(t[n]=e.value),t}},function(t,n,e){var r=e(22)("wks"),o=e(13),i=e(1).Symbol,u="function"==typeof i,f=t.exports=function(t){return r[t]||(r[t]=u&&i[t]||(u?i:o)("Symbol."+t))};f.store=r},function(t,n){t.exports=function(t){try{return!!t()}catch(t){return!0}}},function(t,n,e){var r=e(35),o=e(16);t.exports=Object.keys||function(t){return r(t,o)}},function(t,n,e){var r=e(11);t.exports=function(t){if(!r(t))throw TypeError(t+" is not an object!");return t}},function(t,n){t.exports=function(t){return"object"==typeof t?null!==t:"function"==typeof t}},function(t,n){t.exports=function(t,n){return{enumerable:!(1&t),configurable:!(2&t),writable:!(4&t),value:n}}},function(t,n){var e=0,r=Math.random();t.exports=function(t){return"Symbol(".concat(void 0===t?"":t,")_",(++e+r).toString(36))}},function(t,n){var e=t.exports={version:"2.4.0"};"number"==typeof __e&&(__e=e)},function(t,n){t.exports=function(t){if(void 0==t)throw TypeError("Can't call method on  "+t);return t}},function(t,n){t.exports="constructor,hasOwnProperty,isPrototypeOf,propertyIsEnumerable,toLocaleString,toString,valueOf".split(",")},function(t,n){t.exports={}},function(t,n){t.exports=!0},function(t,n){n.f={}.propertyIsEnumerable},function(t,n,e){var r=e(6).f,o=e(2),i=e(7)("toStringTag");t.exports=function(t,n,e){t&&!o(t=e?t:t.prototype,i)&&r(t,i,{configurable:!0,value:n})}},function(t,n,e){var r=e(22)("keys"),o=e(13);t.exports=function(t){return r[t]||(r[t]=o(t))}},function(t,n,e){var r=e(1),o="__core-js_shared__",i=r[o]||(r[o]={});t.exports=function(t){return i[t]||(i[t]={})}},function(t,n){var e=Math.ceil,r=Math.floor;t.exports=function(t){return isNaN(t=+t)?0:(t>0?r:e)(t)}},function(t,n,e){var r=e(11);t.exports=function(t,n){if(!r(t))return t;var e,o;if(n&&"function"==typeof(e=t.toString)&&!r(o=e.call(t)))return o;if("function"==typeof(e=t.valueOf)&&!r(o=e.call(t)))return o;if(!n&&"function"==typeof(e=t.toString)&&!r(o=e.call(t)))return o;throw TypeError("Can't convert object to primitive value")}},function(t,n,e){var r=e(1),o=e(14),i=e(18),u=e(26),f=e(6).f;t.exports=function(t){var n=o.Symbol||(o.Symbol=i?{}:r.Symbol||{});"_"==t.charAt(0)||t in n||f(n,t,{value:u.f(t)})}},function(t,n,e){n.f=e(7)},function(t,n,e){var r=e(1),o=e(14),i=e(46),u=e(5),f="prototype",c=function(t,n,e){var a,s,l,p=t&c.F,d=t&c.G,v=t&c.S,y=t&c.P,h=t&c.B,b=t&c.W,x=d?o:o[n]||(o[n]={}),m=x[f],g=d?r:v?r[n]:(r[n]||{})[f];d&&(e=n);for(a in e)s=!p&&g&&void 0!==g[a],s&&a in x||(l=s?g[a]:e[a],x[a]=d&&"function"!=typeof g[a]?e[a]:h&&s?i(l,r):b&&g[a]==l?function(t){var n=function(n,e,r){if(this instanceof t){switch(arguments.length){case 0:return new t;case 1:return new t(n);case 2:return new t(n,e)}return new t(n,e,r)}return t.apply(this,arguments)};return n[f]=t[f],n}(l):y&&"function"==typeof l?i(Function.call,l):l,y&&((x.virtual||(x.virtual={}))[a]=l,t&c.R&&m&&!m[a]&&u(m,a,l)))};c.F=1,c.G=2,c.S=4,c.P=8,c.B=16,c.W=32,c.U=64,c.R=128,t.exports=c},function(t,n){var e={}.toString;t.exports=function(t){return e.call(t).slice(8,-1)}},function(t,n,e){var r=e(11),o=e(1).document,i=r(o)&&r(o.createElement);t.exports=function(t){return i?o.createElement(t):{}}},function(t,n,e){t.exports=!e(4)&&!e(8)(function(){return 7!=Object.defineProperty(e(29)("div"),"a",{get:function(){return 7}}).a})},function(t,n,e){"use strict";var r=e(18),o=e(27),i=e(36),u=e(5),f=e(2),c=e(17),a=e(51),s=e(20),l=e(58),p=e(7)("iterator"),d=!([].keys&&"next"in[].keys()),v="@@iterator",y="keys",h="values",b=function(){return this};t.exports=function(t,n,e,x,m,g,w){a(e,n,x);var O,S,_,j=function(t){if(!d&&t in A)return A[t];switch(t){case y:return function(){return new e(this,t)};case h:return function(){return new e(this,t)}}return function(){return new e(this,t)}},P=n+" Iterator",E=m==h,M=!1,A=t.prototype,T=A[p]||A[v]||m&&A[m],L=T||j(m),N=m?E?j("entries"):L:void 0,C="Array"==n?A.entries||T:T;if(C&&(_=l(C.call(new t)),_!==Object.prototype&&(s(_,P,!0),r||f(_,p)||u(_,p,b))),E&&T&&T.name!==h&&(M=!0,L=function(){return T.call(this)}),r&&!w||!d&&!M&&A[p]||u(A,p,L),c[n]=L,c[P]=b,m)if(O={values:E?L:j(h),keys:g?L:j(y),entries:N},w)for(S in O)S in A||i(A,S,O[S]);else o(o.P+o.F*(d||M),n,O);return O}},function(t,n,e){var r=e(10),o=e(55),i=e(16),u=e(21)("IE_PROTO"),f=function(){},c="prototype",a=function(){var t,n=e(29)("iframe"),r=i.length,o="<",u=">";for(n.style.display="none",e(48).appendChild(n),n.src="javascript:",t=n.contentWindow.document,t.open(),t.write(o+"script"+u+"document.F=Object"+o+"/script"+u),t.close(),a=t.F;r--;)delete a[c][i[r]];return a()};t.exports=Object.create||function(t,n){var e;return null!==t?(f[c]=r(t),e=new f,f[c]=null,e[u]=t):e=a(),void 0===n?e:o(e,n)}},function(t,n,e){var r=e(35),o=e(16).concat("length","prototype");n.f=Object.getOwnPropertyNames||function(t){return r(t,o)}},function(t,n){n.f=Object.getOwnPropertySymbols},function(t,n,e){var r=e(2),o=e(3),i=e(45)(!1),u=e(21)("IE_PROTO");t.exports=function(t,n){var e,f=o(t),c=0,a=[];for(e in f)e!=u&&r(f,e)&&a.push(e);for(;n.length>c;)r(f,e=n[c++])&&(~i(a,e)||a.push(e));return a}},function(t,n,e){t.exports=e(5)},function(t,n,e){var r=e(15);t.exports=function(t){return Object(r(t))}},function(t,n,e){t.exports={default:e(41),__esModule:!0}},function(t,n,e){t.exports={default:e(42),__esModule:!0}},function(t,n,e){"use strict";function r(t){return t&&t.__esModule?t:{default:t}}n.__esModule=!0;var o=e(39),i=r(o),u=e(38),f=r(u),c="function"==typeof f.default&&"symbol"==typeof i.default?function(t){return typeof t}:function(t){return t&&"function"==typeof f.default&&t.constructor===f.default&&t!==f.default.prototype?"symbol":typeof t};n.default="function"==typeof f.default&&"symbol"===c(i.default)?function(t){return"undefined"==typeof t?"undefined":c(t)}:function(t){return t&&"function"==typeof f.default&&t.constructor===f.default&&t!==f.default.prototype?"symbol":"undefined"==typeof t?"undefined":c(t)}},function(t,n,e){e(65),e(63),e(66),e(67),t.exports=e(14).Symbol},function(t,n,e){e(64),e(68),t.exports=e(26).f("iterator")},function(t,n){t.exports=function(t){if("function"!=typeof t)throw TypeError(t+" is not a function!");return t}},function(t,n){t.exports=function(){}},function(t,n,e){var r=e(3),o=e(61),i=e(60);t.exports=function(t){return function(n,e,u){var f,c=r(n),a=o(c.length),s=i(u,a);if(t&&e!=e){for(;a>s;)if(f=c[s++],f!=f)return!0}else for(;a>s;s++)if((t||s in c)&&c[s]===e)return t||s||0;return!t&&-1}}},function(t,n,e){var r=e(43);t.exports=function(t,n,e){if(r(t),void 0===n)return t;switch(e){case 1:return function(e){return t.call(n,e)};case 2:return function(e,r){return t.call(n,e,r)};case 3:return function(e,r,o){return t.call(n,e,r,o)}}return function(){return t.apply(n,arguments)}}},function(t,n,e){var r=e(9),o=e(34),i=e(19);t.exports=function(t){var n=r(t),e=o.f;if(e)for(var u,f=e(t),c=i.f,a=0;f.length>a;)c.call(t,u=f[a++])&&n.push(u);return n}},function(t,n,e){t.exports=e(1).document&&document.documentElement},function(t,n,e){var r=e(28);t.exports=Object("z").propertyIsEnumerable(0)?Object:function(t){return"String"==r(t)?t.split(""):Object(t)}},function(t,n,e){var r=e(28);t.exports=Array.isArray||function(t){return"Array"==r(t)}},function(t,n,e){"use strict";var r=e(32),o=e(12),i=e(20),u={};e(5)(u,e(7)("iterator"),function(){return this}),t.exports=function(t,n,e){t.prototype=r(u,{next:o(1,e)}),i(t,n+" Iterator")}},function(t,n){t.exports=function(t,n){return{value:n,done:!!t}}},function(t,n,e){var r=e(9),o=e(3);t.exports=function(t,n){for(var e,i=o(t),u=r(i),f=u.length,c=0;f>c;)if(i[e=u[c++]]===n)return e}},function(t,n,e){var r=e(13)("meta"),o=e(11),i=e(2),u=e(6).f,f=0,c=Object.isExtensible||function(){return!0},a=!e(8)(function(){return c(Object.preventExtensions({}))}),s=function(t){u(t,r,{value:{i:"O"+ ++f,w:{}}})},l=function(t,n){if(!o(t))return"symbol"==typeof t?t:("string"==typeof t?"S":"P")+t;if(!i(t,r)){if(!c(t))return"F";if(!n)return"E";s(t)}return t[r].i},p=function(t,n){if(!i(t,r)){if(!c(t))return!0;if(!n)return!1;s(t)}return t[r].w},d=function(t){return a&&v.NEED&&c(t)&&!i(t,r)&&s(t),t},v=t.exports={KEY:r,NEED:!1,fastKey:l,getWeak:p,onFreeze:d}},function(t,n,e){var r=e(6),o=e(10),i=e(9);t.exports=e(4)?Object.defineProperties:function(t,n){o(t);for(var e,u=i(n),f=u.length,c=0;f>c;)r.f(t,e=u[c++],n[e]);return t}},function(t,n,e){var r=e(19),o=e(12),i=e(3),u=e(24),f=e(2),c=e(30),a=Object.getOwnPropertyDescriptor;n.f=e(4)?a:function(t,n){if(t=i(t),n=u(n,!0),c)try{return a(t,n)}catch(t){}if(f(t,n))return o(!r.f.call(t,n),t[n])}},function(t,n,e){var r=e(3),o=e(33).f,i={}.toString,u="object"==typeof window&&window&&Object.getOwnPropertyNames?Object.getOwnPropertyNames(window):[],f=function(t){try{return o(t)}catch(t){return u.slice()}};t.exports.f=function(t){return u&&"[object Window]"==i.call(t)?f(t):o(r(t))}},function(t,n,e){var r=e(2),o=e(37),i=e(21)("IE_PROTO"),u=Object.prototype;t.exports=Object.getPrototypeOf||function(t){return t=o(t),r(t,i)?t[i]:"function"==typeof t.constructor&&t instanceof t.constructor?t.constructor.prototype:t instanceof Object?u:null}},function(t,n,e){var r=e(23),o=e(15);t.exports=function(t){return function(n,e){var i,u,f=String(o(n)),c=r(e),a=f.length;return c<0||c>=a?t?"":void 0:(i=f.charCodeAt(c),i<55296||i>56319||c+1===a||(u=f.charCodeAt(c+1))<56320||u>57343?t?f.charAt(c):i:t?f.slice(c,c+2):(i-55296<<10)+(u-56320)+65536)}}},function(t,n,e){var r=e(23),o=Math.max,i=Math.min;t.exports=function(t,n){return t=r(t),t<0?o(t+n,0):i(t,n)}},function(t,n,e){var r=e(23),o=Math.min;t.exports=function(t){return t>0?o(r(t),9007199254740991):0}},function(t,n,e){"use strict";var r=e(44),o=e(52),i=e(17),u=e(3);t.exports=e(31)(Array,"Array",function(t,n){this._t=u(t),this._i=0,this._k=n},function(){var t=this._t,n=this._k,e=this._i++;return!t||e>=t.length?(this._t=void 0,o(1)):"keys"==n?o(0,e):"values"==n?o(0,t[e]):o(0,[e,t[e]])},"values"),i.Arguments=i.Array,r("keys"),r("values"),r("entries")},function(t,n){},function(t,n,e){"use strict";var r=e(59)(!0);e(31)(String,"String",function(t){this._t=String(t),this._i=0},function(){var t,n=this._t,e=this._i;return e>=n.length?{value:void 0,done:!0}:(t=r(n,e),this._i+=t.length,{value:t,done:!1})})},function(t,n,e){"use strict";var r=e(1),o=e(2),i=e(4),u=e(27),f=e(36),c=e(54).KEY,a=e(8),s=e(22),l=e(20),p=e(13),d=e(7),v=e(26),y=e(25),h=e(53),b=e(47),x=e(50),m=e(10),g=e(3),w=e(24),O=e(12),S=e(32),_=e(57),j=e(56),P=e(6),E=e(9),M=j.f,A=P.f,T=_.f,L=r.Symbol,N=r.JSON,C=N&&N.stringify,k="prototype",F=d("_hidden"),q=d("toPrimitive"),I={}.propertyIsEnumerable,B=s("symbol-registry"),D=s("symbols"),W=s("op-symbols"),H=Object[k],K="function"==typeof L,R=r.QObject,J=!R||!R[k]||!R[k].findChild,U=i&&a(function(){return 7!=S(A({},"a",{get:function(){return A(this,"a",{value:7}).a}})).a})?function(t,n,e){var r=M(H,n);r&&delete H[n],A(t,n,e),r&&t!==H&&A(H,n,r)}:A,G=function(t){var n=D[t]=S(L[k]);return n._k=t,n},$=K&&"symbol"==typeof L.iterator?function(t){return"symbol"==typeof t}:function(t){return t instanceof L},z=function(t,n,e){return t===H&&z(W,n,e),m(t),n=w(n,!0),m(e),o(D,n)?(e.enumerable?(o(t,F)&&t[F][n]&&(t[F][n]=!1),e=S(e,{enumerable:O(0,!1)})):(o(t,F)||A(t,F,O(1,{})),t[F][n]=!0),U(t,n,e)):A(t,n,e)},Y=function(t,n){m(t);for(var e,r=b(n=g(n)),o=0,i=r.length;i>o;)z(t,e=r[o++],n[e]);return t},Q=function(t,n){return void 0===n?S(t):Y(S(t),n)},X=function(t){var n=I.call(this,t=w(t,!0));return!(this===H&&o(D,t)&&!o(W,t))&&(!(n||!o(this,t)||!o(D,t)||o(this,F)&&this[F][t])||n)},V=function(t,n){if(t=g(t),n=w(n,!0),t!==H||!o(D,n)||o(W,n)){var e=M(t,n);return!e||!o(D,n)||o(t,F)&&t[F][n]||(e.enumerable=!0),e}},Z=function(t){for(var n,e=T(g(t)),r=[],i=0;e.length>i;)o(D,n=e[i++])||n==F||n==c||r.push(n);return r},tt=function(t){for(var n,e=t===H,r=T(e?W:g(t)),i=[],u=0;r.length>u;)!o(D,n=r[u++])||e&&!o(H,n)||i.push(D[n]);return i};K||(L=function(){if(this instanceof L)throw TypeError("Symbol is not a constructor!");var t=p(arguments.length>0?arguments[0]:void 0),n=function(e){this===H&&n.call(W,e),o(this,F)&&o(this[F],t)&&(this[F][t]=!1),U(this,t,O(1,e))};return i&&J&&U(H,t,{configurable:!0,set:n}),G(t)},f(L[k],"toString",function(){return this._k}),j.f=V,P.f=z,e(33).f=_.f=Z,e(19).f=X,e(34).f=tt,i&&!e(18)&&f(H,"propertyIsEnumerable",X,!0),v.f=function(t){return G(d(t))}),u(u.G+u.W+u.F*!K,{Symbol:L});for(var nt="hasInstance,isConcatSpreadable,iterator,match,replace,search,species,split,toPrimitive,toStringTag,unscopables".split(","),et=0;nt.length>et;)d(nt[et++]);for(var nt=E(d.store),et=0;nt.length>et;)y(nt[et++]);u(u.S+u.F*!K,"Symbol",{for:function(t){return o(B,t+="")?B[t]:B[t]=L(t)},keyFor:function(t){if($(t))return h(B,t);throw TypeError(t+" is not a symbol!")},useSetter:function(){J=!0},useSimple:function(){J=!1}}),u(u.S+u.F*!K,"Object",{create:Q,defineProperty:z,defineProperties:Y,getOwnPropertyDescriptor:V,getOwnPropertyNames:Z,getOwnPropertySymbols:tt}),N&&u(u.S+u.F*(!K||a(function(){var t=L();return"[null]"!=C([t])||"{}"!=C({a:t})||"{}"!=C(Object(t))})),"JSON",{stringify:function(t){if(void 0!==t&&!$(t)){for(var n,e,r=[t],o=1;arguments.length>o;)r.push(arguments[o++]);return n=r[1],"function"==typeof n&&(e=n),!e&&x(n)||(n=function(t,n){if(e&&(n=e.call(this,t,n)),!$(n))return n}),r[1]=n,C.apply(N,r)}}}),L[k][q]||e(5)(L[k],q,L[k].valueOf),l(L,"Symbol"),l(Math,"Math",!0),l(r.JSON,"JSON",!0)},function(t,n,e){e(25)("asyncIterator")},function(t,n,e){e(25)("observable")},function(t,n,e){e(62);for(var r=e(1),o=e(5),i=e(17),u=e(7)("toStringTag"),f=["NodeList","DOMTokenList","MediaList","StyleSheetList","CSSRuleList"],c=0;c<5;c++){var a=f[c],s=r[a],l=s&&s.prototype;l&&!l[u]&&o(l,u,a),i[a]=i.Array}},function(t,n){"use strict";var e={versions:function(){var t=window.navigator.userAgent;return{trident:t.indexOf("Trident")>-1,presto:t.indexOf("Presto")>-1,webKit:t.indexOf("AppleWebKit")>-1,gecko:t.indexOf("Gecko")>-1&&t.indexOf("KHTML")==-1,mobile:!!t.match(/AppleWebKit.*Mobile.*/),ios:!!t.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/),android:t.indexOf("Android")>-1||t.indexOf("Linux")>-1,iPhone:t.indexOf("iPhone")>-1||t.indexOf("Mac")>-1,iPad:t.indexOf("iPad")>-1,webApp:t.indexOf("Safari")==-1,weixin:t.indexOf("MicroMessenger")==-1}}()};t.exports=e},function(t,n,e){"use strict";function r(t){return t&&t.__esModule?t:{default:t}}var o=e(40),i=r(o),u=function(){function t(t,n,e){return n||e?String.fromCharCode(n||e):o[t]||t}function n(t){return l[t]}var e=/&quot;|&lt;|&gt;|&amp;|&nbsp;|&apos;|&#(\d+);|&#(\d+)/g,r=/['<> "&]/g,o={"&quot;":'"',"&lt;":"<","&gt;":">","&amp;":"&","&nbsp;":" "},f=/\u00a0/g,c=/<br\s*\/?>/gi,a=/\r?\n/g,s=/\s/g,l={};for(var p in o)l[o[p]]=p;return o["&apos;"]="'",l["'"]="&#39;",{encode:function(t){return t?(""+t).replace(r,n).replace(a,"<br/>").replace(s,"&nbsp;"):""},decode:function(n){return n?(""+n).replace(c,"\n").replace(e,t).replace(f," "):""},encodeBase16:function(t){if(!t)return t;t+="";for(var n=[],e=0,r=t.length;r>e;e++)n.push(t.charCodeAt(e).toString(16).toUpperCase());return n.join("")},encodeBase16forJSON:function(t){if(!t)return t;t=t.replace(/[\u4E00-\u9FBF]/gi,function(t){return escape(t).replace("%u","\\u")});for(var n=[],e=0,r=t.length;r>e;e++)n.push(t.charCodeAt(e).toString(16).toUpperCase());return n.join("")},decodeBase16:function(t){if(!t)return t;t+="";for(var n=[],e=0,r=t.length;r>e;e+=2)n.push(String.fromCharCode("0x"+t.slice(e,e+2)));return n.join("")},encodeObject:function(t){if(t instanceof Array)for(var n=0,e=t.length;e>n;n++)t[n]=u.encodeObject(t[n]);else if("object"==("undefined"==typeof t?"undefined":(0,i.default)(t)))for(var r in t)t[r]=u.encodeObject(t[r]);else if("string"==typeof t)return u.encode(t);return t},loadScript:function(t){var n=document.createElement("script");document.getElementsByTagName("body")[0].appendChild(n),n.setAttribute("src",t)},addLoadEvent:function(t){var n=window.onload;"function"!=typeof window.onload?window.onload=t:window.onload=function(){n(),t()}}}}();t.exports=u},function(t,n){function e(t,n){t.classList?t.classList.add(n):t.className+=" "+n}t.exports=e},function(t,n){function e(t,n){if(t.classList)t.classList.remove(n);else{var e=new RegExp("(^|\\b)"+n.split(" ").join("|")+"(\\b|$)","gi");t.className=t.className.replace(e," ")}}t.exports=e},,,function(t,n){"use strict";function e(){var t=document.querySelector("#page-nav");if(t&&!document.querySelector("#page-nav .extend.prev")&&(t.innerHTML='<a class="extend prev disabled" rel="prev">&laquo; Prev</a>'+t.innerHTML),t&&!document.querySelector("#page-nav .extend.next")&&(t.innerHTML=t.innerHTML+'<a class="extend next disabled" rel="next">Next &raquo;</a>'),yiliaConfig&&yiliaConfig.open_in_new){var n=document.querySelectorAll(".article-entry a:not(.article-more-a)");n.forEach(function(t){t.setAttribute("target","_blank")})}var e=document.querySelector("#js-aboutme");e&&0!==e.length&&(e.innerHTML=e.innerText)}t.exports={init:e}},,,,,,,,,function(t,n){function e(t,n){if("string"==typeof n)return t.insertAdjacentHTML("afterend",n);var e=t.nextSibling;return e?t.parentNode.insertBefore(n,e):t.parentNode.appendChild(n)}t.exports=e}])</script><script src="/./main.2d7529.js"></script><script>!function(){var e=function(e){var t=document.createElement("script");document.getElementsByTagName("body")[0].appendChild(t),t.setAttribute("src",e)};e("/slider.885efe.js")}()</script>
+
+
+    
+<div class="tools-col" q-class="show:isShow,hide:isShow|isFalse" q-on="click:stop(e)">
+  <div class="tools-nav header-menu">
+    
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+    
+
+    <ul style="width: 70%">
+    
+    
+      
+      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'innerArchive')"><a href="javascript:void(0)" q-class="active:innerArchive">所有文章</a></li>
+      
+        
+      
+      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'friends')"><a href="javascript:void(0)" q-class="active:friends">友链</a></li>
+      
+        
+      
+      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'aboutme')"><a href="javascript:void(0)" q-class="active:aboutme">关于我</a></li>
+      
+        
+    </ul>
+  </div>
+  <div class="tools-wrap">
+    
+    	<section class="tools-section tools-section-all" q-show="innerArchive">
+        <div class="search-wrap">
+          <input class="search-ipt" q-model="search" type="text" placeholder="find something…">
+          <i class="icon-search icon" q-show="search|isEmptyStr"></i>
+          <i class="icon-close icon" q-show="search|isNotEmptyStr" q-on="click:clearChose(e)"></i>
+        </div>
+        <div class="widget tagcloud search-tag">
+          <p class="search-tag-wording">tag:</p>
+          <label class="search-switch">
+            <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
+          </label>
+          <ul class="article-tag-list" q-show="showTags">
+            
+            <div class="clearfix"></div>
+          </ul>
+        </div>
+        <ul class="search-ul">
+          <p q-show="jsonFail" style="padding: 20px; font-size: 12px;">
+            缺失模块。<br/>1、在博客根目录（注意不是yilia根目录）执行以下命令：<br/> npm i hexo-generator-json-content --save<br/><br/>
+            2、在根目录_config.yml里添加配置：
+<pre style="font-size: 12px;" q-show="jsonFail">
+  jsonContent:
+    meta: false
+    pages: false
+    posts:
+      title: true
+      date: true
+      path: true
+      text: true
+      raw: false
+      content: false
+      slug: false
+      updated: false
+      comments: false
+      link: false
+      permalink: false
+      excerpt: false
+      categories: false
+      tags: true
+</pre>
+          </p>
+          <li class="search-li" q-repeat="items" q-show="isShow">
+            <a q-attr="href:path|urlformat" class="search-title"><i class="icon-quo-left icon"></i><span q-text="title"></span></a>
+            <p class="search-time">
+              <i class="icon-calendar icon"></i>
+              <span q-text="date|dateformat"></span>
+            </p>
+            <p class="search-tag">
+              <i class="icon-price-tags icon"></i>
+              <span q-repeat="tags" q-on="click:choseTag(e, name)" q-text="name|tagformat"></span>
+            </p>
+          </li>
+        </ul>
+    	</section>
+    
+
+    
+    	<section class="tools-section tools-section-friends" q-show="friends">
+  		
+    	</section>
+    
+
+    
+    	<section class="tools-section tools-section-me" q-show="aboutme">
+  	  	
+  	  		<div class="aboutme-wrap" id="js-aboutme">很惭愧&lt;br&gt;&lt;br&gt;只做了一点微小的工作&lt;br&gt;谢谢大家</div>
+  	  	
+    	</section>
+    
+  </div>
+  
+</div>
+    <!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" style="display:none" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+  </div>
+</body>
+</html>
